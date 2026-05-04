@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 210 40% 99%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -13,38 +13,38 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 217 91% 50%;
+    --primary: 222 75% 28%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 217 91% 65%;
+    --primary-glow: 217 91% 55%;
 
-    --success: 152 76% 40%;
+    --success: 158 72% 36%;
     --success-foreground: 0 0% 100%;
-    --success-glow: 152 70% 55%;
+    --success-glow: 158 65% 48%;
 
     --secondary: 210 40% 96%;
     --secondary-foreground: 222 47% 11%;
 
     --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted-foreground: 215 16% 42%;
 
-    --accent: 217 91% 96%;
-    --accent-foreground: 217 91% 35%;
+    --accent: 222 75% 96%;
+    --accent-foreground: 222 75% 28%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 217 91% 50%;
+    --ring: 222 75% 28%;
 
     --radius: 0.75rem;
 
-    --gradient-brand: linear-gradient(135deg, hsl(217 91% 50%), hsl(217 91% 65%));
-    --gradient-success: linear-gradient(135deg, hsl(152 76% 40%), hsl(170 70% 45%));
-    --gradient-panel: linear-gradient(160deg, hsl(217 91% 50%) 0%, hsl(199 89% 48%) 50%, hsl(152 76% 40%) 100%);
+    --gradient-brand: linear-gradient(135deg, hsl(222 75% 28%), hsl(217 91% 55%));
+    --gradient-success: linear-gradient(135deg, hsl(158 72% 36%), hsl(170 70% 42%));
+    --gradient-panel: linear-gradient(160deg, hsl(222 75% 22%) 0%, hsl(217 85% 38%) 55%, hsl(158 72% 36%) 100%);
 
-    --shadow-card: 0 20px 50px -20px hsl(217 91% 30% / 0.25);
-    --shadow-soft: 0 4px 20px -4px hsl(217 50% 30% / 0.1);
+    --shadow-card: 0 25px 60px -25px hsl(222 75% 18% / 0.35);
+    --shadow-soft: 0 6px 24px -6px hsl(222 60% 25% / 0.18);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
