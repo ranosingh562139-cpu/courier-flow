@@ -147,10 +147,15 @@ const Index = () => {
                       <SelectTrigger id="service">
                         <SelectValue placeholder="Choose service" />
                       </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="DHL">DHL Express</SelectItem>
-                        <SelectItem value="FedEx">FedEx</SelectItem>
-                        <SelectItem value="BlueDart">BlueDart</SelectItem>
+                      <SelectContent className="max-h-72">
+                        {[
+                          "DHL","FedEx","UPS","BlueDart","DTDC","India Post","Delhivery",
+                          "Ecom Express","XpressBees","Aramex","USPS","Royal Mail",
+                          "Canada Post","Australia Post","Hermes","Yodel","Gati",
+                          "Shadowfax","Ekart","Amazon Logistics",
+                        ].map((c) => (
+                          <SelectItem key={c} value={c}>{c}</SelectItem>
+                        ))}
                       </SelectContent>
                     </Select>
                   </div>
@@ -167,16 +172,10 @@ const Index = () => {
                     />
                   </div>
 
-                  <div className="flex flex-col-reverse gap-3 pt-2 sm:flex-row">
-                    <Button
-                      type="button"
-                      className="flex-1 bg-success text-success-foreground transition-transform hover:bg-success/90 hover:-translate-y-0.5 shadow-[var(--shadow-soft)]"
-                    >
-                      Next
-                    </Button>
+                  <div className="pt-2">
                     <Button
                       type="submit"
-                      className="flex-1 bg-primary text-primary-foreground transition-transform hover:bg-primary/90 hover:-translate-y-0.5 shadow-[var(--shadow-soft)]"
+                      className="w-full bg-primary text-primary-foreground transition-transform hover:bg-primary/90 hover:-translate-y-0.5 shadow-[var(--shadow-soft)]"
                     >
                       Update Address
                     </Button>
